@@ -27,7 +27,7 @@ public class EjerciciosHolaMundo {
         String nombre = "David";
         int edad = 20;
         String colorFavorito = "azul";
-        String ciudad = "Soacha, Cundinamarca";
+        String ciudad = "Bogota";
 
         /*
          * Aclaración sobre los flujos estándar:

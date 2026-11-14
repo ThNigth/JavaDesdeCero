@@ -6,11 +6,11 @@ public class BeginnerExercises {
         int age = 20;
         double height = 1.67;
         boolean fun = true;
-        final String email = "martinez075479@gmail.com";
+        final String email = "ejemplo@gmail.com";
         char initial = 'D';
-        String adress = "Kennedy";
+        String adress = "Bogota";
         System.out.println(adress);
-        adress = "Prado vegas";
+        adress = "Medellin";
         System.out.println(adress);
         int a = 36;
         int b = 68;

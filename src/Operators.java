@@ -48,7 +48,30 @@ public class Operators {
 
         // Logicos
 
+        // Y (AND)
+        System.out.println(true && true);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
 
+        System.out.println(3 > 2 && 5 == 2);
+
+        // O (OR)
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+
+        System.out.println(3 > 2 || 5 == 2);
+
+        // NO (NOT)
+
+        System.out.println(!true);
+        System.out.println(!false);
+
+        System.out.println(!(!(3 > 2) || 5 == 2));
+
+        // Unarios
 
     }
 }

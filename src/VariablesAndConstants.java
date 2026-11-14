@@ -17,7 +17,7 @@ public class VariablesAndConstants {
 
         //Ejemplos de inferencia de tipos
 
-        var email = "martinez075479@gmail.com";
+        var email = "ejemplo@gmail.com";
         System.out.println(email);
 
         var year = 2025;
@@ -25,8 +25,8 @@ public class VariablesAndConstants {
 
         //Constantes
 
-        final String EMAIL = "martinez075479@gmail.com";
-        // EMAIL = "david075479@gmail.com"; Es constante
+        final String EMAIL = "ejemplo@gmail.com";
+        // EMAIL = "ejemplo@gmail.com"; Es constante
         System.out.println(EMAIL);
     }
 }
