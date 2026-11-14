@@ -24,6 +24,6 @@ public class DataTypes {
 
         //Tipo de dato en tiempo de compilacion
 
-        System.out.println(myString.getClass().getSimpleName());
+        System.out.println(myString.getClass().getSimpleName()); // Se utiliza para obtener el tipo de variable
     }
 }

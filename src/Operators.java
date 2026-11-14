@@ -13,7 +13,7 @@ public class Operators {
         System.out.println(a-b);
         System.out.println(a*b);
         System.out.println(a/b);
-        System.out.println(a%b);
+        System.out.println(a%b); // Modulo: calcula el residuo de una division
 
         // Asignacion
 
@@ -72,6 +72,18 @@ public class Operators {
         System.out.println(!(!(3 > 2) || 5 == 2));
 
         // Unarios
+
+        System.out.println(+b);
+        System.out.println(-b);
+        System.out.println(++b);
+        System.out.println(b++); // Si el incremento va despues de la variable en la misma
+        System.out.println(b);   // linea de codigo esta se imprimira sin el incremento
+        System.out.println(--b);
+        System.out.println(b--);
+        System.out.println(b);
+
+        b++;                     // En este caso si se incrementa ya que se imprime
+        System.out.println(b);   // despues del incremento
 
     }
 }
